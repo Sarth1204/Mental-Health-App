@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bodyfat_calx"
+    android:background="#232f34">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:paddingBottom="20dp"
+            android:textColor="@color/white"
+            android:paddingStart="180dp"
+            android:textSize="40dp"/>
+
+
+        <Button
+            android:id="@+id/chinups_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:text="CHIN-UPS"
+            android:drawableStart="@drawable/crunching"
+            android:paddingStart="20dp"/>
+
+
+        <Button
+            android:id="@+id/deadlifts_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="DEADLIFTS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/situp"
+            android:paddingStart="20dp"/>
+
+        <Button
+            android:id="@+id/latpulldowns_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="LAT PULL-DOWNS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/seated_jackknife_abs"
+            android:paddingStart="20dp"/>
+
+
+        <Button
+
+            android:id="@+id/seatedrows_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="SEATED ROWS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/onearm_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="ONE-ARM DUMBBELL ROWS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/barbell_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="BARBELL SHRUGS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/dumbell_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="DUMBELL SHRUGS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/supeman_abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="BACK EXTENSIONS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/bentleg_vup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="BENT OVER ROW"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/incline_benchsitups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="REVERSE CHIN UPS"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/rotat_textension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="BODYWEIGHT SUPERMAN"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/bodyweight_pullin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="DUMBBELLS BENT OVER ROW"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/bodyweight_kick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="DUMBBELL ROW"
+            android:textColor="@color/black"
+            android:background="@drawable/round_button"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

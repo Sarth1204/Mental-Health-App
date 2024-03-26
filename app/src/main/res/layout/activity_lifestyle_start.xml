@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lifestyle_start"
+    android:background="@drawable/backfor_questions">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer the questions"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <LinearLayout
+        android:layout_width="404dp"
+        android:layout_height="757dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <CheckBox
+            android:id="@+id/ch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" Are you feeling down-hearted and blue"
+            android:textSize="20sp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning is the time when I feel the best"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you feeling like crying spells or feel like crying"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Are you happy right now"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Do you get suicidal thoughts"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="My mind is as clear as it used to be"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Are you feeling better than before"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" I am more irritable than usual"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" I find it easy to make decisions"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="I feel that others would be better off if I were dead"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ch11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="My life is pretty full"
+            android:textSize="20dp">
+
+        </CheckBox>
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bmr_calx"
+    android:orientation="vertical"
+    android:background="#023020">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Superman"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" Superman, is a floor exercise that involves simultaneously lifting your arms and legs off the ground while keeping your core engaged. This move will not only give you abs of steel, but also strengthen your back."
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingStart="10dp"
+                android:src="@drawable/superman_1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/superman_2" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/superman_3" />
+
+
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingEnd="10dp"
+                android:src="@drawable/crunches_1" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/info_superman"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/info_1"
+        android:text="INFO"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/superman_yt"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/video_1"
+        android:text="Watch Video"
+
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

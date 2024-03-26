@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bmr_calx"
+    android:orientation="vertical"
+    android:background="#023020">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Core Twist"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" Core Twist, it's a core move where you sit on the ground, lean your torso back at an angle, and lift your feet off the ground before twisting your torso from side to side."
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingStart="10dp"
+                android:src="@drawable/coretwist_1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/coretwist_2" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/coretwist_3" />
+
+
+                android:src="@drawable/coretwist_4" />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:paddingEnd="10dp"
+                android:src="@drawable/crunches_1" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/info_coretwist"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/info_1"
+        android:text="INFO"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/coretwist_yt"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/video_1"
+        android:text="Watch Video"
+
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

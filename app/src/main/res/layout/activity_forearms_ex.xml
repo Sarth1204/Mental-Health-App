@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bodyfat_calx"
+    android:background="#232f34">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABS"
+            android:paddingBottom="20dp"
+            android:textColor="@color/white"
+            android:paddingStart="180dp"
+            android:textSize="40dp"/>
+
+
+        <Button
+            android:id="@+id/crunches_abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="Crunches"
+            android:drawableStart="@drawable/crunching"
+            android:paddingStart="20dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="Sit-UPS"
+            android:drawableStart="@drawable/situp"
+            android:paddingStart="20dp"/>
+
+        <Button
+            android:id="@+id/legraises_abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+        <Button
+            android:id="@+id/incline_benchpress_abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="INCLINE BENCH SIT-UPS"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="70dp"
+            android:text="LEG RAISES"
+            android:drawableStart="@drawable/leg_raises"
+            android:paddingStart="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

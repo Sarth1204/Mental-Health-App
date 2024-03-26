@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bodyfat_calx"
+    android:background="#232f34">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ABS"
+           android:paddingBottom="20dp"
+           android:textColor="@color/white"
+           android:paddingStart="180dp"
+           android:textSize="40dp"/>
+
+
+       <Button
+           android:id="@+id/crunches_abss"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/crunching"
+           android:paddingStart="20dp"
+           android:text="Crunches"
+           android:textColor="@color/black" />
+
+       <Button
+           android:id="@+id/situps_abs"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="Sit-UPS"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/situp"
+           android:paddingStart="20dp"/>
+
+       <Button
+           android:id="@+id/seated_jackknife_abs"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="SEATED JACKKNIFE"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/seated_jackknife_abs"
+           android:paddingStart="20dp"/>
+
+
+       <Button
+
+            android:id="@+id/handing_l_raises"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="HANGING LEG RAISES"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+            android:id="@+id/dumbell_sidebend"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="DUMBBELL SIDE BENDS"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+           android:id="@+id/coretwist_abs"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="CORE TWIST"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+            android:id="@+id/toetouch_abs"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="TOE TOUCH"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+            android:id="@+id/supeman_abs"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="SUPERMAN"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+            android:id="@+id/bentleg_vup"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="BENT-LEG V-UP"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+        android:id="@+id/incline_benchsitups"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="INCLINE BENCH SIT-UPS"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+            android:id="@+id/rotat_textension"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="ROTATING T EXTENSION"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+        android:id="@+id/bodyweight_pullin"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="BODYWEIGHT PULL IN"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+       <Button
+            android:id="@+id/bodyweight_kick"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:height="80dp"
+           android:text="BODYWEIGHT SCISSOR KICK"
+           android:textColor="@color/black"
+           android:background="@drawable/round_button"
+           android:drawableStart="@drawable/leg_raises"
+           android:paddingStart="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+   </LinearLayout>
+</ScrollView>

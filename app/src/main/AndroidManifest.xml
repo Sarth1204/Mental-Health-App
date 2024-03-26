@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_COMPANION_APP"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/final_applogo"
+        android:label="Healthify"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mental"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".voice_home"
+            android:exported="false" />
+        <activity
+            android:name=".chat_home"
+            android:exported="false" />
+        <activity
+            android:name=".music_sleep"
+            android:exported="false" />
+        <activity
+            android:name=".game_home"
+            android:exported="false" />
+        <activity
+            android:name=".lifestyle_start"
+            android:exported="false" />
+        <activity
+            android:name=".physical"
+            android:exported="false" />
+        <activity
+            android:name=".sleep"
+            android:exported="false" />
+        <activity
+            android:name=".relax"
+            android:exported="false" />
+        <activity
+            android:name=".lifestyle_home"
+            android:exported="false" />
+        <activity
+            android:name=".innerself_home"
+            android:exported="false" />
+        <activity
+            android:name=".mydaily_home"
+            android:exported="false" />
+        <activity
+            android:name=".smt_else_home"
+            android:exported="false" />
+        <activity
+            android:name=".selflove_home"
+            android:exported="false" />
+        <activity
+            android:name=".addiction_home"
+            android:exported="false" />
+        <activity
+            android:name=".depression_home"
+            android:exported="false" />
+        <activity
+            android:name=".stress_home"
+            android:exported="false" />
+        <activity
+            android:name=".anxiety_home"
+            android:exported="false" />
+        <activity
+            android:name=".developers"
+            android:exported="false" />
+        <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".login_profile"
+            android:exported="false" />
+        <activity
+            android:name=".home_main"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- For the physical button importing the fitnexpall app -->
+        <activity
+            android:name=".female_calx"
+            android:exported="false" />
+        <activity
+            android:name=".underweight_info"
+            android:exported="false" />
+        <activity
+            android:name=".overweight_info"
+            android:exported="false" />
+        <activity
+            android:name=".obesity_info"
+            android:exported="false" />
+        <activity
+            android:name=".info_bentoverrow_back"
+            android:exported="false" />
+        <activity
+            android:name=".bentover_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_backextension_back"
+            android:exported="false" />
+        <activity
+            android:name=".backextension_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_dumbellshrugs_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_barbell_back"
+            android:exported="false" />
+        <activity
+            android:name=".dumbellshrugs_back"
+            android:exported="false" />
+        <activity
+            android:name=".barbell_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_onearmdumbbellrows_back"
+            android:exported="false" />
+        <activity
+            android:name=".onearmdumbellrows_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_seatedrows"
+            android:exported="false" />
+        <activity
+            android:name=".seatedrows_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_latpulldowns_back"
+            android:exported="false" />
+        <activity
+            android:name=".latpulldown_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_deadlift_back"
+            android:exported="false" />
+        <activity
+            android:name=".deadlifts_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_chinup_back"
+            android:exported="false" />
+        <activity
+            android:name=".chinups_back"
+            android:exported="false" />
+        <activity
+            android:name=".info_menu"
+            android:exported="false" />
+        <activity
+            android:name=".dev_menu"
+            android:exported="false" />
+        <activity
+            android:name=".settings_menu"
+            android:exported="false" />
+        <activity
+            android:name=".info_bodyweightscissorkick"
+            android:exported="false" />
+        <activity
+            android:name=".info_bodyweightpullin"
+            android:exported="false" />
+        <activity
+            android:name=".info_rotatingextension"
+            android:exported="false" />
+        <activity
+            android:name=".info_inclinebenchsitups"
+            android:exported="false" />
+        <activity
+            android:name=".info_bentllegvup"
+            android:exported="false" />
+        <activity
+            android:name=".bodyweightkick_abs"
+            android:exported="false" />
+        <activity
+            android:name=".bodyweightpullin_abs"
+            android:exported="false" />
+        <activity
+            android:name=".rotatingtextension_abs"
+            android:exported="false" />
+        <activity
+            android:name=".bentlegvup_abs"
+            android:exported="false" />
+        <activity
+            android:name=".incline_benchsitups"
+            android:exported="false" />
+        <activity
+            android:name=".info_superman"
+            android:exported="false" />
+        <activity
+            android:name=".superman_abs"
+            android:exported="false" />
+        <activity
+            android:name=".info_toetouch"
+            android:exported="false" />
+        <activity
+            android:name=".toetouch_abs"
+            android:exported="false" />
+        <activity
+            android:name=".info_coretwist"
+            android:exported="false" />
+        <activity
+            android:name=".coretwist_abs"
+            android:exported="false" />
+        <activity
+            android:name=".info_dumbell_sidebend"
+            android:exported="false" />
+        <activity
+            android:name=".dumbell_sidebend"
+            android:exported="false" />
+        <activity
+            android:name=".info_hanging_leg"
+            android:exported="false" />
+        <activity
+            android:name=".hanging_leg"
+            android:exported="false" />
+        <activity
+            android:name=".info_seated_jackknife"
+            android:exported="false" />
+        <activity
+            android:name=".seated_jackknife_abs"
+            android:exported="false" />
+        <activity
+            android:name=".info_situps"
+            android:exported="false" />
+        <activity
+            android:name=".situps_abs"
+            android:exported="false" />
+        <activity
+            android:name=".info_crunches"
+            android:exported="false" />
+        <activity
+            android:name=".crunches_abs"
+            android:exported="false" />
+        <activity
+            android:name=".triceps_ex"
+            android:exported="false" />
+        <activity
+            android:name=".shoulders_ex"
+            android:exported="false" />
+        <activity
+            android:name=".legs_ex"
+            android:exported="false" />
+        <activity
+            android:name=".forearms_ex"
+            android:exported="false" />
+        <activity
+            android:name=".chest_ex"
+            android:exported="false" />
+        <activity
+            android:name=".calf_ex"
+            android:exported="false" />
+        <activity
+            android:name=".biceps_ex"
+            android:exported="false" />
+        <activity
+            android:name=".back_ex"
+            android:exported="false" />
+        <activity
+            android:name=".abs_ex"
+            android:exported="false" />
+        <activity
+            android:name=".male_calories"
+            android:exported="false" />
+        <activity
+            android:name=".female_bodyfat"
+            android:exported="false" />
+        <activity
+            android:name=".male_bodyfat"
+            android:exported="false" />
+        <activity
+            android:name=".female_bmr"
+            android:exported="false" />
+        <activity
+            android:name=".male_bmr"
+            android:exported="false" />
+        <activity
+            android:name=".Exercies_info"
+            android:exported="false" />
+        <activity
+            android:name=".idealweight_calx"
+            android:exported="false" />
+        <activity
+            android:name=".calories_calx"
+            android:exported="false" />
+        <activity
+            android:name=".bodyfat_calx"
+            android:exported="false" />
+        <activity
+            android:name=".bmr_calx"
+            android:exported="false" />
+        <activity
+            android:name=".bmi_calculator"
+            android:exported="false" />
+    </application>
+
+</manifest>

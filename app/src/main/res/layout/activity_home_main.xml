@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".home_main"
+android:background="@drawable/start_back">
+
+
+
+
+
+
+    <Button
+    android:id="@+id/selflovebtn_home"
+    android:layout_width="100dp"
+    android:layout_height="42dp"
+    android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+    android:background="@drawable/round_new"
+    android:text="Self Love"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.385"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.294" />
+
+
+
+    <include
+        android:id="@+id/toolbar_home"
+        layout="@layout/toolbar"/>
+
+
+
+
+
+
+
+<ImageView
+    android:id="@+id/login_img"
+    android:layout_width="49dp"
+    android:layout_height="40dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.01"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.013"
+    app:srcCompat="@drawable/home_logo" />
+
+
+    <Button
+        android:id="@+id/help_call"
+        android:layout_width="99dp"
+        android:layout_height="38dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/black"
+        android:text="24*7 Help"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello User"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.054"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.091" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="What do you want to focus on?"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.117"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.18" />
+
+<Button
+    android:id="@+id/sleepbtn_home"
+    android:layout_width="74dp"
+    android:layout_height="42dp"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:background="@drawable/round_new"
+    android:text="Sleep"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.044"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.232" />
+
+    <Button
+            android:id="@+id/smt_elsebtn"
+            android:layout_width="140dp"
+            android:layout_height="42dp"
+            android:background="@drawable/round_new"
+            android:backgroundTint="@color/black"
+            android:text="Exercise"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.865"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+    android:id="@+id/addictionbtn_home"
+    android:layout_width="100dp"
+    android:layout_height="42dp"
+    android:backgroundTint="@color/black"
+    android:background="@drawable/round_new"
+    android:text="Addiction"
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.044"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.294" />
+
+<Button
+    android:id="@+id/depressionbtn_home"
+    android:layout_width="110dp"
+    android:layout_height="40dp"
+    android:backgroundTint="@color/black"
+    android:background="@drawable/round_new"
+    android:text="Depression"
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.947"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.233" />
+
+<Button
+    android:id="@+id/stressbtn_home"
+    android:layout_width="81dp"
+    android:layout_height="40dp"
+    android:backgroundTint="@color/black"
+    android:background="@drawable/round_new"
+    android:text="Stress"
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.59"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.232" />
+
+<Button
+    android:id="@+id/anxietybtn_home"
+    android:layout_width="88dp"
+    android:layout_height="41dp"
+    android:backgroundTint="@color/black"
+    android:background="@drawable/round_new"
+    android:text="Anxiety"
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.299"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.231" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Daily check in...."
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.056"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.356" />
+
+<Button
+
+    android:id="@+id/dailystart_home"
+    android:layout_width="326dp"
+    android:layout_height="103dp"
+    android:backgroundTint="@color/black"
+    android:paddingTop="33dp"
+    android:background="@drawable/round_new"
+    android:gravity="start"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:paddingLeft="30dp"
+    android:text="My Daily \nStartup"
+    android:textColor="@color/white"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.3"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.445" />
+
+<Button
+
+    android:id="@+id/breath_home"
+    android:layout_width="326dp"
+    android:layout_height="103dp"
+    android:backgroundTint="@color/black"
+    android:paddingTop="30sp"
+    android:background="@drawable/round_new"
+    android:gravity="start"
+    android:paddingLeft="30dp"
+    android:text="START THE \nREAL BREATHING"
+    android:textColor="@color/white"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.492"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.598" />
+
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="397dp"-->
+<!--        android:layout_height="853dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.0">-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#4CAF50"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="Horizontal Line"-->
+<!--            android:textSize="25sp" />-->
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="2dp"-->
+<!--            android:layout_marginTop="750dp"-->
+<!--            android:background="@color/white" />-->
+<!--    </LinearLayout>-->
+
+    <Button
+
+        android:id="@+id/innerself_home"
+        android:layout_width="326dp"
+        android:layout_height="103dp"
+        android:background="@drawable/round_new"
+        android:backgroundTint="@color/black"
+        android:gravity="start"
+        android:paddingLeft="30dp"
+        android:paddingTop="30sp"
+        android:text="EXPLORE YOUR\nINNER SELF"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
+    <Button
+
+    android:id="@+id/lifestyle_home"
+    android:layout_width="326dp"
+    android:layout_height="103dp"
+    android:backgroundTint="@color/black"
+        android:paddingTop="37dp"
+    android:background="@drawable/round_new"
+    android:gravity="start"
+    android:paddingLeft="30dp"
+    android:text="LIFESTYLE QUESTIONNAIRE"
+    android:textColor="@color/white"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.447"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.90" />
+
+
+    <Button
+            android:id="@+id/home"
+            android:layout_width="72dp"
+            android:layout_height="64dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/home_buttonicon"
+            android:paddingTop="10dp"
+            android:text="HOME"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+    android:id="@+id/physical"
+    android:layout_width="72dp"
+    android:layout_height="64dp"
+    android:background="@drawable/round_button"
+    android:drawableTop="@drawable/physical_icon"
+    android:paddingTop="10dp"
+    android:text="physical"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:textSize="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.947"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+
+<Button
+    android:id="@+id/sleep"
+    android:layout_width="72dp"
+    android:layout_height="64dp"
+    android:background="@drawable/round_button"
+    android:drawableTop="@drawable/sleep_icon"
+    android:paddingTop="10dp"
+    android:text="Sleep"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:textSize="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.722"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+
+<Button
+    android:id="@+id/relax"
+    android:layout_width="72dp"
+    android:layout_height="64dp"
+    android:text="Relax"
+    android:background="@drawable/round_button"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:textSize="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+
+<Button
+    android:id="@+id/game"
+    android:layout_width="72dp"
+    android:layout_height="64dp"
+    android:text="My \ngames"
+    android:paddingTop="5dp"
+    android:drawableTop="@drawable/notes_journal"
+    android:gravity="center"
+    android:background="@drawable/round_button"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:textSize="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.274"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/chat_home"
+        android:layout_width="71dp"
+        android:layout_height="63dp"
+        android:background="@drawable/round_button_circle"
+        android:backgroundTint="#4169E1"
+        android:text="chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <Button
+        android:id="@+id/voice_home"
+        android:layout_width="71dp"
+        android:layout_height="63dp"
+        android:background="@drawable/round_button_circle"
+        android:backgroundTint="#4169E1"
+        android:text="Voice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

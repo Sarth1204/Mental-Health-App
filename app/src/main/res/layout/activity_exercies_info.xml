@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bodyfat_calx"
+    android:background="#232f34">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXERCISES"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <Button
+        android:id="@+id/back_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/back_ex"
+        android:paddingStart="20dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <Button
+        android:id="@+id/abs_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:drawableStart="@drawable/abs_ex"
+        android:paddingStart="20dp"
+
+        android:text="ABS"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <Button
+        android:id="@+id/triceps_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:text="TRICEPS"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/triceps"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
+    <Button
+        android:id="@+id/shoulders_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:text="SHOULDERS"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/shoulder"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <Button
+        android:id="@+id/legs_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:text="LEGS"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/leg"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <Button
+        android:id="@+id/forarms_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:text="FOREARMS"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/forearm"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <Button
+        android:id="@+id/chest_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:text="CHEST"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/chest_ex"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <Button
+        android:id="@+id/calf_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:drawableStart="@drawable/calf"
+        android:paddingStart="20dp"
+        android:text="CALF"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438" />
+
+    <Button
+        android:id="@+id/biceps_ex"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:text="BICEPS"
+        android:drawableStart="@drawable/biceps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <Button
+        android:id="@+id/back_page"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:background="#232f34"
+        android:drawableStart="@drawable/back_page2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
